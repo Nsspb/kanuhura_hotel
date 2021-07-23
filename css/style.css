@@ -1,4 +1,3 @@
-
 html,
 body {
 	height: 100%;
@@ -366,8 +365,8 @@ ol {
 -----------------------*/
 
 .hero-area {
-	height: 938px;
-	padding-top: 396px;
+	height: 900px;
+	padding-top: 390px;
 }
 
 .hero-area.other-page {
@@ -1897,7 +1896,7 @@ ol {
 	}
 	.hero-area {
 		height: 665px;
-		padding-top: 280px;
+		padding-top: 380px;
 	}
 	.hero-text h1 {
 		font-size: 70px;
