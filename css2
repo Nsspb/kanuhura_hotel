@@ -53,7 +53,7 @@ p {
 }
 
 img {
-    max-width: 240px;
+    max-width: 70%;
 }
 
 input:focus,
@@ -73,7 +73,7 @@ a:focus {
 ul,
 ol {
     padding: 0;
-    margin: 0 20 0;
+    margin: 0;
 }
 
 [class^='flaticon-']:before,
@@ -816,17 +816,10 @@ ol {
 
 .footer-item {
     margin-bottom: 30px;
-    padding-left: 10px;
-}
-
-.footer-item .cont {
-    margin-bottom: 30px;
-    padding-left: 70px;
 }
 
 .footer-item .footer-logo {
     margin-bottom: 25px;
-    padding-top: 40px;
 }
 
 .footer-item .footer-logo a {
@@ -836,7 +829,7 @@ ol {
 .footer-item h5 {
     color: #f9ad81;
     font-weight: 500;
-    margin-bottom: 25px;
+    margin-bottom: 57px;
 }
 
 .footer-item .newslatter-form {
@@ -924,8 +917,8 @@ ol {
 .copyright {
     background: #171717;
     overflow: hidden;
-    padding-bottom: 25px;
-	margin-top: 30px;
+    padding: 24px;
+    margin-top: 30px;
 }
 
 .copyright .copyright-text {
@@ -946,8 +939,6 @@ ol {
 
 .copyright ul {
     float: right;
-	padding-right: 290px;
-	padding-top: 55px;
 }
 
 .copyright ul li {
@@ -1003,10 +994,6 @@ ol {
     -webkit-transition: all 0.2s;
     transition: all 0.2s;
 }
-
-
-
-
 
 /* -------------------------------------- Other Pages Styles -------------------------------------*/
 
@@ -1665,9 +1652,6 @@ ol {
     .facilities-item .fi-title {
         margin-bottom: 370px;
     }
-
-    img {
-    }
 }
 
 @media only screen and (min-width: 1349px) and (max-width: 1499px) {
@@ -1682,47 +1666,12 @@ ol {
     }
 }
 
-@media only screen and (min-width: 1201px) and (max-width: 1283px) {
-    .primary-btn {
-        display: inline-block;
-        font-size: 16px;
-        font-weight: 400;
-        padding: 16px 20px;
-        color: #ffffff;
-        background: #f9ad81;
-        letter-spacing: 0.5px;
-    }
-}
-
-@media only screen and (min-width: 1200px) and (max-width: 1249px) {
+@media only screen and (min-width: 1200px) and (max-width: 1244px) {
     .inner-header .main-menu ul li {
         margin-right: 30px;
     }
-    .inner-header .main-menu {
-        margin-right: 100px;
-    }
-
     .facilities-item .fi-title {
         margin-bottom: 250px;
-    }
-    img {
-        max-width: 200px;
-    }
-
-    .primary-btn {
-        display: inline-block;
-        font-size: 16px;
-        font-weight: 400;
-        padding: 16px 19px;
-        color: #ffffff;
-        background: #f9ad81;
-        letter-spacing: 0.5px;
-    }
-}
-
-@media only screen and (min-width: 1079px) and (max-width: 1199px) {
-    .inner-header .main-menu ul li {
-        margin-right: 30px;
     }
 }
 
@@ -1751,53 +1700,11 @@ ol {
     .check-form:after {
         width: 1150px;
     }
-    img {
-        max-width: 200px;
-    }
-    .primary-btn {
-        display: inline-block;
-        font-size: 11px;
-        font-weight: 400;
-        padding: 22px 5px;
-        color: #ffffff;
-        background: #f9ad81;
-        letter-spacing: 0.5px;
-    }
-	.footer-item .newslatter-form input {
-		width: 100%;
-		height: 50px;
-		background: #676767;
-		border: none;
-		font-size: 11px;
-		color: #ffffff;
-		padding-left: 9px;
-		padding-right: 15px;
-	}
-
-	.footer-item .newslatter-form button {
-		font-size: 11px;
-		color: #ffffff;
-		background: #f9ad81;
-		display: inline-block;
-		border: none;
-		position: absolute;
-		right: 0;
-		top: 0;
-		padding: 14px 25px;
-		height: 100%;
-		font-weight: 500;
-		cursor: pointer;
-	}
-	.copyright ul {
-		float: right;
-		padding-right: 190px;
-		padding-top: 55px;
-	}
 }
 
 /* Medium Device */
 
-@media only screen and (min-width: 995px) and (max-width: 1078px) {
+@media only screen and (min-width: 992px) and (max-width: 1078px) {
     .header-section {
         padding-left: 0;
         padding-right: 0;
@@ -1811,7 +1718,7 @@ ol {
     }
 
     .inner-header .main-menu {
-        margin-right: 70px;
+        margin-right: 10px;
     }
     .inner-header .main-menu ul li {
         margin-right: 12px;
@@ -1862,47 +1769,6 @@ ol {
         padding-top: 25px;
         padding-bottom: 12px;
     }
-
-    .primary-btn {
-        display: inline-block;
-        font-size: 11px;
-        font-weight: 400;
-        padding: 22px 5px;
-        color: #ffffff;
-        background: #f9ad81;
-        letter-spacing: 0.5px;
-    }
-
-	.footer-item .newslatter-form input {
-		width: 100%;
-		height: 50px;
-		background: #676767;
-		border: none;
-		font-size: 11px;
-		color: #ffffff;
-		padding-left: 9px;
-		padding-right: 15px;
-	}
-
-	.footer-item .newslatter-form button {
-		font-size: 11px;
-		color: #ffffff;
-		background: #f9ad81;
-		display: inline-block;
-		border: none;
-		position: absolute;
-		right: 0;
-		top: 0;
-		padding: 14px 25px;
-		height: 100%;
-		font-weight: 500;
-		cursor: pointer;
-	}
-	.copyright ul {
-		float: right;
-		padding-right: 175px;
-		padding-top: 55px;
-	}
 }
 
 @media only screen and (max-width: 991px) {
@@ -1949,30 +1815,20 @@ ol {
     .facilities-item .fi-title {
         margin-bottom: 320px;
     }
-
-    .inner-header .main-menu {
-        margin-right: 70px;
-    }
 }
 
 /* Tablet Device */
 
-@media only screen and (min-width: 768px) and (max-width: 996px) {
-
-	.copyright ul {
-		text-align: center;
-	}
-	
-	
-	.header-section {
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .header-section {
         padding-left: 0;
         padding-right: 0;
     }
     .inner-header .main-menu ul li {
-        margin-right: 0px;
+        margin-right: 15px;
     }
     .inner-header .main-menu {
-        margin-right: 70;
+        margin-right: 0;
     }
     .inner-header .nav-right {
         display: none;
@@ -2028,49 +1884,11 @@ ol {
     .facilities-item .fi-title {
         margin-bottom: 390px;
     }
-	.footer-item .cont {
-		margin-bottom: 30px;
-		padding-left: 0px;
-	}
-	.footer-item .newslatter-form input {
-		width: 40%;
-		height: 50px;
-		background: #676767;
-		border: none;
-		font-size: 13px;
-		color: #ffffff;
-		padding-left: 9px;
-		padding-right: 15px;
-		margin-right: -5px;
-	}
-	.footer-item .newslatter-form button {
-		font-size: 13px;
-		color: #ffffff;
-		background: #f9ad81;
-		display: inline-block;
-		border: none;
-		position: inherit;
-		right: 0;
-		top: 0;
-		padding: 14px 25px;
-		height: 50px;
-		
-		font-weight: 500;
-		cursor: pointer;
-		
-	}
-	.copyright ul {
-		float: right;
-		padding-right: 137px;
-		padding-top: 55px;
-	}
-
 }
-
 
 /* Large Mobile */
 
-@media only screen and (max-width: 881px) {
+@media only screen and (max-width: 767px) {
     .header-section {
         padding-left: 0;
         padding-right: 0;
@@ -2174,7 +1992,6 @@ ol {
     .copyright ul li {
         margin-right: 10px;
         margin-bottom: 10px;
-		
     }
     .ri-slider-item .ri-sliders .single-img {
         height: 450px;
@@ -2190,7 +2007,9 @@ ol {
         float: none;
         margin-bottom: 10px;
     }
-  
+    .copyright ul {
+        float: none;
+    }
     .room-section {
         padding-top: 100px;
     }
@@ -2217,60 +2036,10 @@ ol {
     .copyright {
         text-align: center;
     }
-	.footer-item .cont {
-		margin-bottom: 30px;
-		padding-left: 0px;
-	}
-	.copyright ul {
-		float: right;
-		padding-right: 45px;
-		padding-top: 55px;
-	}
 }
 
 /* Small Mobile */
-@media only screen and (max-width: 881px) {
-	.footer-item .cont {
-		margin-bottom: 30px;
-		padding-left: 0px;
-	}
-	.footer-item .newslatter-form input {
-		width: 40%;
-		height: 50px;
-		background: #676767;
-		border: none;
-		font-size: 13px;
-		color: #ffffff;
-		padding-left: 9px;
-		padding-right: 15px;
-		margin-right: -5px;
-	}
 
-	.footer-item .newslatter-form button {
-		font-size: 13px;
-		color: #ffffff;
-		background: #f9ad81;
-		display: inline-block;
-		border: none;
-		position: inherit;
-		right: 0;
-		top: 0;
-		padding: 14px 25px;
-		height: 50px;
-		
-		font-weight: 500;
-		cursor: pointer;
-		
-	}
-	.copyright ul {
-		float: right;
-		padding-right: 22px;
-		padding-top: 55px;
-	}
-}
-	
-	
-}
 @media only screen and (max-width: 479px) {
     .hero-text h1 {
         font-size: 50px;
@@ -2301,14 +2070,4 @@ ol {
     .ri-text .ri-features .ri-info {
         margin-bottom: 20px;
     }
-	.footer-item .cont {
-		margin-bottom: 30px;
-		padding-left: 0px;
-	}
-	.copyright ul {
-		float: right;
-		padding-right: 30px;
-		padding-top: 55px;
-	}
 }
-
